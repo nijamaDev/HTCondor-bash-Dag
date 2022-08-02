@@ -1,4 +1,4 @@
-deafult: rm dag
+deafult: rm && dag
 
 rm:
 	rm -rf dag.condor_dag.* *.csv *.txt *.submit
