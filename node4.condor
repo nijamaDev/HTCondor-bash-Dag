@@ -1,7 +1,7 @@
 executable = ./node4.sh
 arguments = datos-adultos-us.csv
 
-transfer_input_files = datos-adultos-us.csv
+transfer_input_files = output/datos-adultos-us.csv
 
 output = output/reporte_1.txt
 error = output/error-node4.submit

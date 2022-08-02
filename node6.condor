@@ -3,7 +3,7 @@
 executable = ./node6.sh
 arguments = datos-adultos-us.csv
 
-transfer_input_files = datos-adultos-us.csv
+transfer_input_files = output/datos-adultos-us.csv
 
 output = output/reporte_3.txt
 error = output/error-node6.submit
