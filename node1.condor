@@ -4,5 +4,7 @@ arguments = http://archive.ics.uci.edu/ml/machine-learning-databases/adult/adult
 output = output/datos-adultos-us.csv
 error = output/error-node1.submit
 log = output/log-node1.submit
- 
+
+should_transfer_files = yes
+
 queue
