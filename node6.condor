@@ -3,10 +3,11 @@
 executable = ./node6.sh
 arguments = datos-adultos-us.csv
 
-transfer_input_files = output/datos-adultos-us.csv
+transfer_input_files = datos-adultos-us.csv
 
-output = output/reporte_3.txt
-error = output/error-node6.submit
-log = output/log-node6.submit
+output = reporte_3.txt
+error = error-node6.submit
+log = log-node6.submit
 
+should_transfer_files = yes
 queue
