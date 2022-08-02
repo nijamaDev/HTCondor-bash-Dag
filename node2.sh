@@ -7,7 +7,7 @@ fi
 data=$1
 total_reg=$(wc -l $data)
 incomp_reg=$(grep -c ", ?," $data)
-delete_incomp_reg=$(sed -i '/^.*, ?,*$/d' $data)
+delete_incomp_reg=$(sed -i '/^.*, ?,.*$/d' $data)
 
 echo "N° Registros totales: ${total_reg}"
 echo "N° Registros incompletos ${incomp_reg}"
