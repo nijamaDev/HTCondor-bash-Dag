@@ -1,0 +1,13 @@
+#!/bin/bash
+ 
+executable = ./node3.sh
+arguments = datos-adultos-us.csv
+
+transfer_input_files = datos-adultos-us.csv
+
+output = output/output-node3.submit
+error = output/error-node3.submit
+log = output/log-node3.submit
+
+queue
+
