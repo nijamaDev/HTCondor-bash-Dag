@@ -1,0 +1,4 @@
+dag.condor_dag.*
+*.csv
+*.txt
+*.submit
